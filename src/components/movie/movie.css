@@ -1,0 +1,51 @@
+.movie {
+    height: 281px;
+    width: 40%;
+    font-family: Inter;
+    display: flex;
+    flex-direction: row;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.15));
+    margin: 16px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.movie-date {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #827E7E;    
+}
+
+.movie-information {
+    margin: 12px 20px 49px 20px;
+}
+
+
+.movie-description {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.movie-poster {
+    width: 30%;
+    align-self: flex-start;
+    object-fit: contain;  
+}
+
+.movie-genres {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
