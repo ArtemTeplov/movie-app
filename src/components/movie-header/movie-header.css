@@ -1,0 +1,63 @@
+.movie-date {
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+display: flex;
+align-items: center;
+
+color: #827E7E;    
+}
+
+.movie-stats {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 12px 20px 0px 20px;
+}
+
+.movie-genre {
+    border: 1px solid #D9D9D9;
+    padding: 3px 3px 2px 5px;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+
+.movie-header {
+    display: flex;
+    
+}
+
+.title {
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.voteAverage {
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 15px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.voteBad {
+    border-color: #E90000;
+}
+
+.votePoor {
+    border-color: #E97E00;
+}
+
+.voteGood {
+    border-color: #E9D100;
+}
+
+.voteAwesome {
+    border-color: #66E900;
+}

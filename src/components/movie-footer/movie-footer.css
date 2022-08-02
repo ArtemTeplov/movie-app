@@ -1,0 +1,23 @@
+.movie-description {
+/* @font-size-sm: 12px */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 22px;
+/* or 183% */
+
+color: #000000;
+margin-bottom: auto;
+}
+
+.movie-footer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.movie-rate {
+    align-self: flex-end;
+}

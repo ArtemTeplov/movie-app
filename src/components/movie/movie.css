@@ -1,0 +1,44 @@
+.movie-container {
+    width: 40%;
+    font-family: Inter;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.15));
+    margin: 16px;
+    background-color: #fff;
+overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+    .movie-container{
+	width: 100%;
+	flex-direction: column;
+    }
+}
+
+.movie-img {
+    width: 30%;
+    align-self: flex-start;
+    object-fit: contain;
+    /* height: 281px; */
+}
+
+@media screen and (max-width: 1000px) {
+.movie-img {
+    width: 20%;
+}
+}
+
+.movie-desktop-layout {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* margin: 16px; */
+}
+
+.movie-mobile-layout {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
